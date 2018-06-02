@@ -1,0 +1,30 @@
+application:
+  name: configurationservice
+
+management:
+  security:
+    enabled: false
+spring:
+  profiles.active: development
+
+---
+spring:
+  profiles: development
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/SaeedAlbarhami/config/
+server:
+  port: 8081
+
+---
+spring:
+  profiles: production
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/SaeedAlbarhami/config/
+server:
+  port: 8081

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/ui-darkness/jquery-ui.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+</head>
+<body>
+<div class="container">
+    <br />
+    <div class="input-group">
+        <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span></span>
+        <input type="text" class="form-control" id="datepicker" aria-describedby="basic-addon1"/>
+    </div>
+
+    <table class="table table-striped table-bordered">
+        <tr>
+            <td>Course Name</td>
+            <td>Course No.</td>
+            <td>Student Full Name</td>
+        </tr>
+        <tr th:each="studentCourseBooking: ${studentCourseBookings}">
+            <td th:text="${studentCourseBooking.courseName}">Course Name</td>
+            <td th:text="${studentCourseBooking.courseNumber}">Course Number</td>
+            <td th:text="${studentCourseBooking.lastName}!=null? ${studentCourseBooking.lastName} + ', ' + ${studentCourseBooking.firstName} : 'Available'">Student Name</td>
+        </tr>
+    </table>
+</div>
+
+
+<script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="js/all.js"></script>
+<!--The all.js i have used from lynda demo Frank P Moley-->
+</body>
+</html>

@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: bookingservice
+  profiles.active: production
+
+---
+spring:
+  profiles: development
+  cloud:
+    config:
+      uri: http://172.26.150.161:8081
+---
+spring:
+  profiles: production
+  cloud:
+    config:
+      uri: http://localhost:8081
