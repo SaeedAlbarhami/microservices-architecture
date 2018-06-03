@@ -11,10 +11,10 @@ public class Booking {
     @Column(name="BOOKING_ID")
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
-    @Column(name="COURSE_ID")
-    private long courseId;
-    @Column(name="STUDENT_ID")
-    private long studentId;
+    @Column(name="CAR_ID")
+    private long carId;
+    @Column(name="CUSTOMER_ID")
+    private long customerId;
     @Column(name="BOOKING_DATE")
     private Date date;
 
@@ -26,20 +26,20 @@ public class Booking {
         this.id = id;
     }
 
-    public long getCourseId() {
-        return courseId;
+    public long getCarId() {
+        return carId;
     }
 
-    public void setCourseId(long courseId) {
-        this.courseId = courseId;
+    public void setCarId(long carId) {
+        this.carId = carId;
     }
 
-    public long getStudentId() {
-        return studentId;
+    public long getCustomerId() {
+        return customerId;
     }
 
-    public void setStudentId(long studentId) {
-        this.studentId = studentId;
+    public void setCustomerId(long customerId) {
+        this.customerId = customerId;
     }
 
     public Date getDate() {

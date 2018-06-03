@@ -27,9 +27,9 @@ public class ApiGatewayApplication {
 	@Bean
 	public Docket api(){
 		return new Docket(DocumentationType.SWAGGER_2).groupName("ApiGateway").select()
-				.apis(RequestHandlerSelectors.basePackage("com.microservices.course.booking"))
+				.apis(RequestHandlerSelectors.basePackage("com.microservices.car.booking"))
 				.paths(any()).build().apiInfo(new ApiInfo("Api Gateway",
-						"A set of services to provide apis for courses and bookings", "1.0.0", null,
+						"A set of services to provide apis for cars and bookings", "1.0.0", null,
 						new Contact("", "", null),null, null));
 	}
 

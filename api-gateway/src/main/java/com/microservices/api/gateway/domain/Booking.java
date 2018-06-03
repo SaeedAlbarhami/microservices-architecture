@@ -3,8 +3,8 @@ package com.microservices.api.gateway.domain;
 
 public class Booking {
     private long id;
-    private long courseId;
-    private long studentId;
+    private long carId;
+    private long customerId;
     private String date;
 
     public long getId() {
@@ -15,20 +15,20 @@ public class Booking {
         this.id = id;
     }
 
-    public long getCourseId() {
-        return courseId;
+    public long getCarId() {
+        return carId;
     }
 
-    public void setCourseId(long courseId) {
-        this.courseId = courseId;
+    public void setCarId(long carId) {
+        this.carId = carId;
     }
 
-    public long getStudentId() {
-        return studentId;
+    public long getCustomerId() {
+        return customerId;
     }
 
-    public void setStudentId(long studentId) {
-        this.studentId = studentId;
+    public void setCustomerId(long customerId) {
+        this.customerId = customerId;
     }
 
     public String getDate() {

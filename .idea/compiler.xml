@@ -8,11 +8,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="api-gateway" />
         <module name="booking-service" />
+        <module name="car-rental-app" />
+        <module name="car-service" />
         <module name="configuration-service" />
-        <module name="course-service" />
+        <module name="customer-service" />
         <module name="discovery-service" />
-        <module name="school-app" />
-        <module name="student-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
