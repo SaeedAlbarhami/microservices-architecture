@@ -2,63 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e55b60e-d87c-4a1d-8f47-5b66e3ae6cb7" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/microservices/api/gateway/ApiGatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/microservices/api/gateway/ApiGatewayApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/microservices/api/gateway/CourseBookingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/microservices/api/gateway/CarBookingController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/microservices/api/gateway/StudentCourseBookingProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/microservices/api/gateway/CarBookingProcess.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/microservices/api/gateway/client/CourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/microservices/api/gateway/client/CarService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/microservices/api/gateway/client/CourseServiceFallbakImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/microservices/api/gateway/client/CarServiceFallbakImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/microservices/api/gateway/client/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/microservices/api/gateway/client/CustomerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/microservices/api/gateway/client/StudentServiceFallbakImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/microservices/api/gateway/client/CustomerServiceFallbakImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/microservices/api/gateway/domain/Booking.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/microservices/api/gateway/domain/Booking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/microservices/api/gateway/domain/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/microservices/api/gateway/domain/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/microservices/api/gateway/domain/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/microservices/api/gateway/domain/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/microservices/api/gateway/domain/StudentCourseBooking.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/microservices/api/gateway/domain/CustomerCarBooking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/static/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/booking-service/src/main/java/com/microservices/service/booking/Booking.java" beforeDir="false" afterPath="$PROJECT_DIR$/booking-service/src/main/java/com/microservices/service/booking/Booking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booking-service/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/booking-service/src/main/resources/data.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booking-service/src/main/resources/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/booking-service/src/main/resources/schema.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course-service/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/course-service/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/course-service/src/main/java/com/microservices/service/car/Car.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/course-service/src/main/java/com/microservices/service/car/CarController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/course-service/src/main/java/com/microservices/service/car/CarRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/course-service/src/main/java/com/microservices/service/car/CarServiceApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/course-service/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/course-service/src/main/resources/bootstrap.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/course-service/src/main/resources/data.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/course-service/src/main/resources/schema.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/course-service/src/test/java/com/microservices/service/car/RoomServicesApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/school-app/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/school-app/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/school-app/.idea/dbnavigator.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/school-app/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/school-app/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/school-app/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/school-app/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/school-app/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/school-app/src/main/java/com/microservices/app/school/SchoolAppController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/school-app/src/main/java/com/microservices/app/school/SchoolApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/school-app/src/main/java/com/microservices/app/school/client/StudentCourseBookingService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/school-app/src/main/java/com/microservices/app/school/domain/StudentCourseBooking.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/school-app/src/main/resources/bootstrap.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/school-app/src/main/resources/static/js/all.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/school-app/src/main/resources/templates/booking.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/school-app/src/test/java/com/microservices/app/school/SchoolApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/student-service/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/student-service/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/student-service/src/main/java/com/microservices/service/student/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/student-service/src/main/java/com/microservices/service/student/StudentController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/student-service/src/main/java/com/microservices/service/student/StudentRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/student-service/src/main/java/com/microservices/service/student/StudentServiceApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/student-service/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/student-service/src/main/resources/bootstrap.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/student-service/src/main/resources/data.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/student-service/src/main/resources/schema.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/student-service/src/test/java/com/microservices/service/student/GuestServicesApplicationTests.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/room-services/target/" />
     <ignored path="$PROJECT_DIR$/reservation-business-services/target/" />
@@ -103,7 +47,7 @@
         <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/microservices/api/gateway/CarBookingProcess.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="133">
-              <caret line="44" column="26" lean-forward="true" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
+              <caret line="44" column="26" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -115,7 +59,7 @@
         <entry file="file://$PROJECT_DIR$/car-rental-app/src/main/resources/bootstrap.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -147,15 +91,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CarRentalAppController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/car-rental-app/src/main/java/com/microservices/app/rental/car/CarRentalAppController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="31" column="39" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CarRentalApplication.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/car-rental-app/src/main/java/com/microservices/app/rental/car/CarRentalApplication.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -165,11 +100,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="booking.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="booking.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/car-rental-app/src/main/resources/templates/booking.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="21" column="61" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
+            <state relative-caret-position="439">
+              <caret line="35" column="2" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="deployment-all.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/deployment-all.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -236,9 +180,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/school-app/Dockerfile" />
-        <option value="$PROJECT_DIR$/student-service/Dockerfile" />
-        <option value="$PROJECT_DIR$/configuration-service/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/configuration-service/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/discovery-service/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/discovery-service/src/main/resources/application.yml" />
@@ -287,6 +228,9 @@
         <option value="$PROJECT_DIR$/car-rental-app/src/main/java/com/microservices/app/rental/car/client/CarBookingService.java" />
         <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/microservices/api/gateway/CarBookingController.java" />
         <option value="$PROJECT_DIR$/car-rental-app/src/main/resources/templates/booking.html" />
+        <option value="$PROJECT_DIR$/car-rental-app/car_app_deployment_all.yml" />
+        <option value="$PROJECT_DIR$/car_app_deployment_all.yml" />
+        <option value="$PROJECT_DIR$/deployment-all.yml" />
       </list>
     </option>
   </component>
@@ -317,8 +261,8 @@
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="602" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="767" />
     <option name="width" value="771" />
     <option name="height" value="735" />
   </component>
@@ -336,95 +280,6 @@
               <item name="microservices-architecture-spring-boot" type="b2602c69:ProjectViewProjectNode" />
               <item name="car-rental-app" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="microservices-architecture-spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="car-rental-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservices-architecture-spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="car-rental-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservices-architecture-spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="car-rental-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservices-architecture-spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="car-rental-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="car" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservices-architecture-spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="car-rental-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="car" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservices-architecture-spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="car-rental-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="car" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservices-architecture-spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="car-rental-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservices-architecture-spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="car-rental-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservices-architecture-spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="customer-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservices-architecture-spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="customer-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservices-architecture-spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="customer-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservices-architecture-spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="customer-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservices-architecture-spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="customer-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="customer" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -440,19 +295,19 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Java\workspace\spring-micro\config-server" />
-      <recent name="D:\Java\workspace\spring-micro\eureka-server" />
-      <recent name="D:\Java\workspace\spring-micro\guest-services" />
-      <recent name="D:\Java\workspace\spring-micro\reservation-business-services" />
-      <recent name="D:\Java\workspace\spring-micro\reservation-services" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Java\workspace\spring-micro\student-service\src\main\resources" />
       <recent name="D:\Java\workspace\spring-micro\school-app\src\main\resources" />
       <recent name="D:\Java\workspace\spring-micro\api-gateway\src\main\resources" />
       <recent name="D:\Java\workspace\spring-micro\booking-service\src\main\resources" />
       <recent name="D:\Java\workspace\spring-micro\course-service\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Java\workspace\spring-micro\config-server" />
+      <recent name="D:\Java\workspace\spring-micro\eureka-server" />
+      <recent name="D:\Java\workspace\spring-micro\guest-services" />
+      <recent name="D:\Java\workspace\spring-micro\reservation-business-services" />
+      <recent name="D:\Java\workspace\spring-micro\reservation-services" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -467,7 +322,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CarRentalApplication">
+  <component name="RunManager" selected="Application.ConfigurationServiceApplication">
     <configuration name="ApiGatewayApplication" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.microservices.api.gateway.ApiGatewayApplication" />
       <module name="api-gateway" />
@@ -633,13 +488,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="767" y="0" width="771" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="bottom" id="DB Execution Console" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50075644" side_tool="true" weight="0.21617162" />
-      <window_info anchor="right" id="Maven Projects" order="1" visible="true" weight="0.17170954" />
+      <window_info anchor="right" id="Maven Projects" order="1" weight="0.31926864" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info id="Project Explorer" order="2" sideWeight="0.4975728" weight="0.32980332" />
@@ -647,7 +502,7 @@
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Console" order="10" />
       <window_info id="Structure" order="1" sideWeight="0.50165015" side_tool="true" weight="0.25340393" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.24894515" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.23432343" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32838285" />
@@ -656,10 +511,10 @@
       <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.33828384" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.490099" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.32838285" />
-      <window_info anchor="bottom" id="Terminal" order="13" sideWeight="0.49924356" weight="0.39273927" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49834985" visible="true" weight="0.24357034" />
+      <window_info anchor="bottom" id="Terminal" order="13" sideWeight="0.49924356" weight="0.7772277" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49834985" weight="0.45288327" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.35478547" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -732,26 +587,11 @@
       <option name="time" value="12" />
     </breakpoint-manager>
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/school-app/src/main/java/com/microservices/app/school/domain/StudentCourseBooking.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/school-app/src/main/java/com/microservices/app/school/SchoolAppController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="31" column="55" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/school-app/src/main/resources/static/js/all.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-503" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/school-app/src/main/resources/templates/booking.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -1026,7 +866,7 @@
     <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/microservices/api/gateway/CarBookingProcess.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="44" column="26" lean-forward="true" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
+          <caret line="44" column="26" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1036,7 +876,7 @@
     <entry file="file://$PROJECT_DIR$/car-rental-app/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -1092,10 +932,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/car-rental-app/car_app_deployment_all">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/car-rental-app/car_app_deployment_all.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/car-rental-app/src/main/resources/templates/booking.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="21" column="61" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
+        <state relative-caret-position="439">
+          <caret line="35" column="2" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deployment-all.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
         </state>
       </provider>
     </entry>
