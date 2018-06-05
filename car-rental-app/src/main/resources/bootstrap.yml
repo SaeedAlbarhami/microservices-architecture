@@ -1,7 +1,7 @@
 spring:
   application:
     name: carrentalapp
-  profiles.active: development
+  profiles.active: production
 
 ---
 spring:

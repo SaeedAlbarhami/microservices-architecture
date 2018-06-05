@@ -13,6 +13,7 @@
         <module name="configuration-service" />
         <module name="customer-service" />
         <module name="discovery-service" />
+        <module name="monitoring-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

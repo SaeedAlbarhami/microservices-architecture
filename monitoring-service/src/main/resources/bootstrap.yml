@@ -1,6 +1,6 @@
 spring:
   application:
-    name: carservice
+    name: monitoringservice
   profiles.active: production
 
 ---

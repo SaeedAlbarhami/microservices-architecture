@@ -26,6 +26,7 @@
         <option value="$PROJECT_DIR$/car-service/pom.xml" />
         <option value="$PROJECT_DIR$/customer-service/pom.xml" />
         <option value="$PROJECT_DIR$/car-rental-app/pom.xml" />
+        <option value="$PROJECT_DIR$/monitoring-service/pom.xml" />
       </list>
     </option>
   </component>
