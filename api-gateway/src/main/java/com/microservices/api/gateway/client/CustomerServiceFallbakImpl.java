@@ -7,16 +7,17 @@ import java.util.Collections;
 import java.util.List;
 @Component
 public class CustomerServiceFallbakImpl implements CustomerService {
+
     @Override
-    public List<Customer> findAll(String emailAddress) {
+    public List<Customer> getAllCustomers(String emailAddress) {
         return Collections.emptyList();
     }
 
     @Override
-    public Customer findOne(long id) {
+    public Customer getCustomer(long id) {
         Customer customer = new Customer();
-            customer.setFirstName("Car");
-            customer.setLastName("Booked");
+            customer.setFirstName("Customer");
+            customer.setLastName("Booked By");
             return customer;
     }
 }

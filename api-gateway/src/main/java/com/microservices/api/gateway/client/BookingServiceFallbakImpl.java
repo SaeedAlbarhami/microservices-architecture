@@ -9,7 +9,7 @@ import java.util.List;
 public class BookingServiceFallbakImpl implements BookingService {
 
     @Override
-    public List<Booking> findAll(String date) {
+    public List<Booking> getAllBookings(String date) {
         return Collections.emptyList();
     }
 }

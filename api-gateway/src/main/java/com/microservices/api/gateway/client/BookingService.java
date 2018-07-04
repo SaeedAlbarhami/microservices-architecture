@@ -12,5 +12,5 @@ import java.util.List;
 @FeignClient(value = "BOOKINGSERVICE",fallback = BookingServiceFallbakImpl.class)
 public interface BookingService {
     @RequestMapping(value = "/bookings", method = RequestMethod.GET)
-    List<Booking> findAll(@RequestParam(name = "date", required = false) String date);
+    List<Booking> getAllBookings(@RequestParam(name = "date", required = false) String date);
 }

@@ -1,5 +1,6 @@
 package com.microservices.service.car;
 
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.apache.commons.lang3.StringUtils;
@@ -17,16 +18,15 @@ public class CarController {
 
     @RequestMapping(value="/cars",method = RequestMethod.GET)
     @ApiOperation(value="Get All Cars", notes="Gets all cars", nickname="getCars")
-    public List<Car> findAll(@RequestParam(name="carNumber", required = false)String carNumber){
+    public List<Car> getAllCars(@RequestParam(name="carNumber", required = false)String carNumber){
         if(StringUtils.isNotEmpty(carNumber)){
             return Collections.singletonList(this.carRepository.findByCarNumber(carNumber));
         }
         return (List<Car>) this.carRepository.findAll();
     }
-
     @RequestMapping(value="/cars/{id}", method = RequestMethod.GET)
     @ApiOperation(value="Get Car", notes="Gets a single car based on its unique id", nickname = "getCar")
-    public Car findOne(@PathVariable("id")long id){
+    public Car getCar(@PathVariable("id")long id){
         return this.carRepository.findOne(id);
     }
 }

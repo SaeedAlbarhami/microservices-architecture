@@ -32,7 +32,7 @@ public class CarBookingProcess {
 
 
     public List<CustomerCarBooking> getCarBookingsForDate(String dateString){
-        List<Car> cars = this.carService.findAll(null);
+        List<Car> cars = this.carService.getAllCars(null);
         Map<Long, CustomerCarBooking> carBookingMap = new HashMap<>();
         cars.forEach(car ->{
             CustomerCarBooking customerCarBooking = new CustomerCarBooking();
@@ -41,10 +41,10 @@ public class CarBookingProcess {
             customerCarBooking.setCarNumber(car.getCarNumber());
             carBookingMap.put(car.getId(), customerCarBooking);
         });
-        Iterable<Booking> bookings = this.bookingService.findAll(dateString);
+        Iterable<Booking> bookings = this.bookingService.getAllBookings(dateString);
         if(null!=bookings){
             bookings.forEach(booking -> {
-                Customer customer = this.customerService.findOne(booking.getCustomerId());
+                Customer customer = this.customerService.getCustomer(booking.getCustomerId());
                 if(null!= customer) {
                     CustomerCarBooking customerCarBooking = carBookingMap.get(booking.getCarId());
                     customerCarBooking.setDate(booking.getDate());

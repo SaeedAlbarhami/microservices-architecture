@@ -8,12 +8,12 @@ import java.util.List;
 @Component
 public class CarServiceFallbakImpl implements CarService {
     @Override
-    public List<Car> findAll(String carNumber) {
+    public List<Car> getAllCars(String carNumber) {
         return Collections.emptyList();
     }
 
     @Override
-    public Car findOne(long id) {
+    public Car getCar(long id) {
        Car car =new Car();
        car.setId(500);
        car.setName("Default car");

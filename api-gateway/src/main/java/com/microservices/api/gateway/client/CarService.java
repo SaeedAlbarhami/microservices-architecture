@@ -14,8 +14,8 @@ import java.util.List;
 public interface CarService {
 
     @RequestMapping(value="/cars", method= RequestMethod.GET)
-    List<Car> findAll(@RequestParam(name="carNumber", required=false)String carNumber);
+    List<Car> getAllCars(@RequestParam(name="carNumber", required=false)String carNumber);
 
     @RequestMapping(value="/cars/{id}", method = RequestMethod.GET)
-    Car findOne(@PathVariable("id")long id);
+    Car getCar(@PathVariable("id")long id);
 }

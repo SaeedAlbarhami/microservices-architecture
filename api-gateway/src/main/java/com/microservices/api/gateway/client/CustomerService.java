@@ -1,6 +1,7 @@
 package com.microservices.api.gateway.client;
 
 import com.microservices.api.gateway.domain.Customer;
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import org.springframework.cloud.netflix.feign.FeignClient;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -15,8 +16,8 @@ public interface CustomerService {
 
 
     @RequestMapping(value = "/customers",method= RequestMethod.GET)
-    List<Customer> findAll(@RequestParam(name="emailAddress", required = false)String emailAddress);
+    List<Customer> getAllCustomers(@RequestParam(name="emailAddress", required = false)String emailAddress);
 
     @RequestMapping(value = "/customers/{id}", method = RequestMethod.GET)
-    Customer findOne(@PathVariable(name="id")long id);
+    Customer getCustomer(@PathVariable(name="id")long id);
 }
