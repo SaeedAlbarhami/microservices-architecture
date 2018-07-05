@@ -1,26 +1,18 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: discovery-config-app
+  name: discovery-service
 spec:
   selector:
     matchLabels:
-      app: discovery-config-app
+      app: discovery-service
   replicas: 2
   template:
     metadata:
       labels:
-        app: discovery-config-app
+        app: discovery-service
     spec:
       containers:
-      - name: configuration-service
-        image: saeedalbarhami/configuration-service
-        ports:
-        - containerPort: 8081
-        env:
-        - name: PORT
-          value: '8081'
-
       - name: discovery-service
         image: saeedalbarhami/discovery-service
         ports:
@@ -34,16 +26,13 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: discovery-config-app
+  name: discovery-service
   namespace: default
 spec:
-  type: LoadBalancer
+  type: NodePort
   selector:
-    app: discovery-config-app
+    app: discovery-service
   ports:
-  - name: configuration-port
-    protocol: TCP
-    port: 8081
   - name: discovery-port
     protocol: TCP
     port: 8082

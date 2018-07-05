@@ -2,29 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95504b53-b01c-48c9-adf3-3f5ee41dd3e6" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/deployment-bookingservice.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployment-discovery.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/microservices/api/gateway/ApiGatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/microservices/api/gateway/ApiGatewayApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/microservices/api/gateway/CarBookingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/microservices/api/gateway/CarBookingController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/microservices/api/gateway/CarBookingProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/microservices/api/gateway/CarBookingProcess.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/microservices/api/gateway/client/BookingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/microservices/api/gateway/client/BookingService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/microservices/api/gateway/client/BookingServiceFallbakImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/microservices/api/gateway/client/BookingServiceFallbakImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/microservices/api/gateway/client/CarService.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/microservices/api/gateway/client/CarService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/microservices/api/gateway/client/CarServiceFallbakImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/microservices/api/gateway/client/CarServiceFallbakImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/microservices/api/gateway/client/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/microservices/api/gateway/client/CustomerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/microservices/api/gateway/client/CustomerServiceFallbakImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/microservices/api/gateway/client/CustomerServiceFallbakImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booking-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/booking-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booking-service/src/main/java/com/microservices/service/booking/BookingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/booking-service/src/main/java/com/microservices/service/booking/BookingController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booking-service/src/main/java/com/microservices/service/booking/BookingServicesApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/booking-service/src/main/java/com/microservices/service/booking/BookingServicesApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booking-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/booking-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/car-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-service/src/main/java/com/microservices/service/car/CarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-service/src/main/java/com/microservices/service/car/CarController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-service/src/main/java/com/microservices/service/car/CarServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-service/src/main/java/com/microservices/service/car/CarServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-service/src/main/java/com/microservices/service/customer/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/src/main/java/com/microservices/service/customer/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-service/src/main/java/com/microservices/service/customer/CustomerServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/src/main/java/com/microservices/service/customer/CustomerServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/monitoring-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/monitoring-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/monitoring-service/src/main/java/com/microservices/monitoring/service/MonitoringApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/monitoring-service/src/main/java/com/microservices/monitoring/service/MonitoringApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment-all.yml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment-all.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/room-services/target/" />
     <ignored path="$PROJECT_DIR$/reservation-business-services/target/" />
@@ -65,37 +48,63 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BookingController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/booking-service/src/main/java/com/microservices/service/booking/BookingController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="33" column="44" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BookingRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/booking-service/src/main/java/com/microservices/service/booking/BookingRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BookingService.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BookingService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/microservices/api/gateway/client/BookingService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="11" column="36" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="36" />
+            <state relative-caret-position="96">
+              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/customer-service/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="3" column="50" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="deployment-all.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/deployment-all.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="33" column="14" lean-forward="true" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="deployment-discovery.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/deployment-discovery.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="512">
+              <caret line="32" column="11" lean-forward="true" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="deployment-bookingservice.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/deployment-bookingservice.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="33" column="24" lean-forward="true" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/booking-service/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="ApiGatewayApplication.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/microservices/api/gateway/ApiGatewayApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
+            <state relative-caret-position="144">
               <caret line="23" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -109,8 +118,8 @@
       <file leaf-file-name="CarBookingController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/microservices/api/gateway/CarBookingController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="32" column="44" lean-forward="true" selection-start-line="32" selection-end-line="33" />
+            <state relative-caret-position="304">
+              <caret line="32" column="44" selection-start-line="32" selection-end-line="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -121,8 +130,8 @@
       <file leaf-file-name="CarBookingProcess.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/microservices/api/gateway/CarBookingProcess.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="46" column="45" lean-forward="true" selection-start-line="46" selection-start-column="45" selection-end-line="46" selection-end-column="45" />
+            <state relative-caret-position="528">
+              <caret line="46" column="45" selection-start-line="46" selection-start-column="45" selection-end-line="46" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -133,43 +142,11 @@
       <file leaf-file-name="CustomerServiceFallbakImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/microservices/api/gateway/client/CustomerServiceFallbakImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
+            <state relative-caret-position="208">
               <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#487#488#0" expanded="true" />
-                <element signature="e#514#515#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CustomerService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/microservices/api/gateway/client/CustomerService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CarService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/microservices/api/gateway/client/CarService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CarController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/car-service/src/main/java/com/microservices/service/car/CarController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
@@ -236,9 +213,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/course-service/src/main/java/com/microservices/service/car/Car.java" />
-        <option value="$PROJECT_DIR$/course-service/src/main/java/com/microservices/service/car/CarRepository.java" />
-        <option value="$PROJECT_DIR$/course-service/src/main/java/com/microservices/service/car/CarServiceApplication.java" />
         <option value="$PROJECT_DIR$/course-service/src/main/java/com/microservices/service/car/CarController.java" />
         <option value="$PROJECT_DIR$/course-service/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/course-service/src/main/resources/data.sql" />
@@ -256,7 +230,6 @@
         <option value="$PROJECT_DIR$/car-rental-app/src/main/resources/templates/booking.html" />
         <option value="$PROJECT_DIR$/car-rental-app/car_app_deployment_all.yml" />
         <option value="$PROJECT_DIR$/car_app_deployment_all.yml" />
-        <option value="$PROJECT_DIR$/deployment-all.yml" />
         <option value="$PROJECT_DIR$/car-service/src/main/java/com/microservices/service/car/CarRepository.java" />
         <option value="$PROJECT_DIR$/configuration-service/pom.xml" />
         <option value="$PROJECT_DIR$/configuration-service/src/main/java/com/microservices/service/configuration/ConfigurationServiceApplication.java" />
@@ -287,6 +260,10 @@
         <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/microservices/api/gateway/client/CustomerService.java" />
         <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/microservices/api/gateway/CarBookingProcess.java" />
         <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/microservices/api/gateway/client/CustomerServiceFallbakImpl.java" />
+        <option value="$PROJECT_DIR$/customer-service/Dockerfile" />
+        <option value="$PROJECT_DIR$/deployment-discovery.yml" />
+        <option value="$PROJECT_DIR$/deployment-bookingservice.yml" />
+        <option value="$PROJECT_DIR$/deployment-all.yml" />
       </list>
     </option>
   </component>
@@ -334,46 +311,24 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="microservices-architecture-spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="booking-service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microservices-architecture-spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservices-architecture-spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservices-architecture-spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservices-architecture-spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="customer-service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -383,19 +338,19 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sp_admin\source\repos\microservices-architecture-spring-boot" />
+      <recent name="D:\Java\workspace\spring-micro\student-service\src\main\resources" />
+      <recent name="D:\Java\workspace\spring-micro\school-app\src\main\resources" />
+      <recent name="D:\Java\workspace\spring-micro\api-gateway\src\main\resources" />
+      <recent name="D:\Java\workspace\spring-micro\booking-service\src\main\resources" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Java\workspace\spring-micro\config-server" />
       <recent name="D:\Java\workspace\spring-micro\eureka-server" />
       <recent name="D:\Java\workspace\spring-micro\guest-services" />
       <recent name="D:\Java\workspace\spring-micro\reservation-business-services" />
       <recent name="D:\Java\workspace\spring-micro\reservation-services" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Java\workspace\spring-micro\student-service\src\main\resources" />
-      <recent name="D:\Java\workspace\spring-micro\school-app\src\main\resources" />
-      <recent name="D:\Java\workspace\spring-micro\api-gateway\src\main\resources" />
-      <recent name="D:\Java\workspace\spring-micro\booking-service\src\main\resources" />
-      <recent name="D:\Java\workspace\spring-micro\course-service\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -410,7 +365,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CustomerServiceApplication">
+  <component name="RunManager" selected="Application.ApiGatewayApplication">
     <configuration name="ApiGatewayApplication" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.microservices.api.gateway.ApiGatewayApplication" />
       <module name="api-gateway" />
@@ -589,40 +544,41 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1288" height="948" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32838285" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.23058252" />
-      <window_info anchor="right" id="Palette&#9;" order="5" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="bottom" id="DB Execution Console" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.29321486" side_tool="true" weight="0.5618932" />
       <window_info anchor="right" id="Maven Projects" order="1" weight="0.23667206" />
-      <window_info anchor="bottom" id="Version Control" order="12" weight="0.32838285" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.70678514" weight="0.37864077" />
-      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32956383" />
-      <window_info anchor="bottom" id="Terminal" order="13" sideWeight="0.49924356" weight="0.7772277" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49834985" visible="true" weight="0.319063" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.35436893" />
+      <window_info id="Project Explorer" order="2" sideWeight="0.4975728" weight="0.32980332" />
+      <window_info id="Job Explorer" order="2" sideWeight="0.4975728" weight="0.32980332" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" weight="0.3288835" />
+      <window_info anchor="bottom" id="Console" order="10" />
       <window_info id="Structure" order="1" sideWeight="0.50165015" side_tool="true" weight="0.25340393" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.24894515" />
       <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.36529127" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32838285" />
+      <window_info id="DB Browser" order="2" weight="0.20347957" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.32838285" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.70678514" weight="0.37864077" />
+      <window_info anchor="bottom" id="Terminal" order="13" sideWeight="0.49924356" weight="0.7772277" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49834985" visible="true" weight="0.32875606" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.36529127" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="bottom" id="Console" order="10" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.23058252" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="Project Explorer" order="2" sideWeight="0.4975728" weight="0.32980332" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info id="DB Browser" order="2" weight="0.20347957" />
-      <window_info id="Job Explorer" order="2" sideWeight="0.4975728" weight="0.32980332" />
-      <window_info anchor="bottom" id="DB Execution Console" order="7" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.35436893" />
+      <window_info anchor="right" id="Coverage" order="7" side_tool="true" weight="0.32956383" />
     </layout>
     <layout-to-restore>
       <window_info anchor="bottom" id="DB Execution Console" order="7" />
@@ -680,19 +636,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/monitoring-service/monitoring-service.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/monitoring-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-68">
-          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/monitoring-service/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
@@ -758,28 +701,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="556">
           <caret line="44" column="27" selection-start-line="44" selection-start-column="27" selection-end-line="44" selection-end-column="27" />
-          <folding>
-            <element signature="e#455#456#0" expanded="true" />
-            <element signature="e#480#481#0" expanded="true" />
-            <element signature="e#514#515#0" expanded="true" />
-            <element signature="e#542#543#0" expanded="true" />
-            <element signature="e#572#573#0" expanded="true" />
-            <element signature="e#600#601#0" expanded="true" />
-            <element signature="e#640#641#0" expanded="true" />
-            <element signature="e#674#675#0" expanded="true" />
-            <element signature="e#709#710#0" expanded="true" />
-            <element signature="e#742#743#0" expanded="true" />
-            <element signature="e#792#793#0" expanded="true" />
-            <element signature="e#836#837#0" expanded="true" />
-            <element signature="e#892#893#0" expanded="true" />
-            <element signature="e#930#931#0" expanded="true" />
-            <element signature="e#962#963#0" expanded="true" />
-          </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/booking-service/src/main/resources/schema.sql">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/booking-service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -794,9 +717,6 @@
           <caret column="35" selection-start-column="35" selection-end-column="35" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/booking-service/src/main/resources/data.sql">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-javanica/1.5.10/hystrix-javanica-1.5.10.jar!/com/netflix/hystrix/contrib/javanica/command/MethodExecutionAction.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -851,10 +771,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="241">
           <caret line="71" selection-start-line="71" selection-end-line="71" />
-          <folding>
-            <element signature="e#775#2445#0" expanded="true" />
-            <element signature="e#2444#2445#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -918,9 +834,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="249">
           <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#482#483#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -928,18 +841,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="35" column="32" lean-forward="true" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
-          <folding>
-            <element signature="e#372#373#0" expanded="true" />
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#524#525#0" expanded="true" />
-            <element signature="e#568#569#0" expanded="true" />
-            <element signature="e#602#603#0" expanded="true" />
-            <element signature="e#632#633#0" expanded="true" />
-            <element signature="e#678#679#0" expanded="true" />
-            <element signature="e#716#717#0" expanded="true" />
-            <element signature="e#752#753#0" expanded="true" />
-            <element signature="e#784#785#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1001,7 +902,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/booking-service/src/main/java/com/microservices/service/booking/BookingController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
+        <state relative-caret-position="336">
           <caret line="33" column="44" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
         </state>
       </provider>
@@ -1015,8 +916,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/microservices/api/gateway/client/CustomerService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="48">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1032,7 +933,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/microservices/api/gateway/ApiGatewayApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
+        <state relative-caret-position="144">
           <caret line="23" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1044,8 +945,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/microservices/api/gateway/CarBookingController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="32" column="44" lean-forward="true" selection-start-line="32" selection-end-line="33" />
+        <state relative-caret-position="304">
+          <caret line="32" column="44" selection-start-line="32" selection-end-line="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1054,8 +955,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/microservices/api/gateway/CarBookingProcess.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="46" column="45" lean-forward="true" selection-start-line="46" selection-start-column="45" selection-end-line="46" selection-end-column="45" />
+        <state relative-caret-position="528">
+          <caret line="46" column="45" selection-start-line="46" selection-start-column="45" selection-end-line="46" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1064,20 +965,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/microservices/api/gateway/client/CustomerServiceFallbakImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
+        <state relative-caret-position="208">
           <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#487#488#0" expanded="true" />
-            <element signature="e#514#515#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/microservices/api/gateway/client/BookingService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="11" column="36" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="36" />
+        <state relative-caret-position="96">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customer-service/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="50" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deployment-discovery.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="32" column="11" lean-forward="true" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/booking-service/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deployment-bookingservice.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="33" column="24" lean-forward="true" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deployment-all.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="33" column="14" lean-forward="true" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
         </state>
       </provider>
     </entry>
