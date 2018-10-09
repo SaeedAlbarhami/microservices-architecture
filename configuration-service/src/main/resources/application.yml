@@ -7,6 +7,9 @@ management:
 spring:
   profiles.active: development
 
+server:
+  port: 8081
+  contextPath: /config
 ---
 spring:
   profiles: development
@@ -15,8 +18,6 @@ spring:
       server:
         git:
           uri: https://github.com/SaeedAlbarhami/config/
-server:
-  port: 8081
 
 ---
 spring:
@@ -26,5 +27,4 @@ spring:
       server:
         git:
           uri: https://github.com/SaeedAlbarhami/config/
-server:
-  port: 8081
+

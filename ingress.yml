@@ -1,0 +1,55 @@
+---
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: micro-services-ingress
+  namespace: micro-services
+  annotations:
+      nginx.ingress.kubernetes.io/ssl-redirect: "false"
+
+spec:
+  tls:
+  - secretName: k8ssecret-microservices
+  rules:
+  - host: k8s.mrhecloud.com
+    http:
+      paths:
+      - path: /config
+        backend:
+          serviceName: config-app
+          servicePort: 8081
+      - path: /auth
+        backend:
+          serviceName: keycloak-http
+          servicePort: 80
+      - path: /discovery
+        backend:
+          serviceName: discovery-service
+          servicePort: 8082
+
+      - path: /bookings
+        backend:
+          serviceName: internal-services
+          servicePort: 8085
+      - path: /cars
+        backend:
+          serviceName: internal-services
+          servicePort: 8087
+      - path: /customers
+        backend:
+          serviceName: internal-services
+          servicePort: 8083
+      - path: /monitoring
+        backend:
+          serviceName: internal-services
+          servicePort: 8090
+
+      - path: /gateway
+        backend:
+          serviceName: gateway
+          servicePort: 8085
+
+      - path: /unified-push
+        backend:
+          serviceName: unified-push
+          servicePort: 8085

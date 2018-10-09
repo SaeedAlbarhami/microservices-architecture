@@ -27,6 +27,11 @@ public class CarBookingController {
     @Autowired
     private CustomerService customerService;
 
+    @RequestMapping(value = "/", method = RequestMethod.GET)
+    public String index(){
+        return "--welcome to our api gateway:version 1";
+    }
+
     @Autowired
     private CarBookingProcess carBookingProcess;
     @RequestMapping(value = "/carbookings", method = RequestMethod.GET)
@@ -34,6 +39,11 @@ public class CarBookingController {
         return this.carBookingProcess.getCarBookingsForDate(date);
     }
 
+    @RequestMapping(value="/cars/{id}", method = RequestMethod.GET)
+    @ApiOperation(value="Get Car", notes="Gets a single car based on its unique id", nickname = "getCar")
+    public Car getCar(@PathVariable("id")long id){
+        return this.carService.getCar(id);
+    }
 
     @RequestMapping(value = "/cars", method = RequestMethod.GET)
     @ApiOperation(value="Get All Cars", notes="Gets all cars in", nickname="getCars")

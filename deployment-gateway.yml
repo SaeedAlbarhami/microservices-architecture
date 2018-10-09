@@ -2,45 +2,45 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: discovery-service
+  name: gateway
   namespace: micro-services
 spec:
   selector:
     matchLabels:
-      app: discovery-service
+      app: gateway
   replicas: 1
   template:
     metadata:
       labels:
-        app: discovery-service
+        app: gateway
     spec:
       containers:
-      - name: discovery-service
-        image: saeedalbarhami/discovery-service
+      - name: api-gateway
+        image: saeedalbarhami/api-gateway
         ports:
-        - containerPort: 8082
+        - containerPort: 8084
         imagePullPolicy: Always
         env:
         - name: PORT
-          value: '8082'
+          value: '8084'
         resources:
           limits:
-            memory: 500Mi
+            cpu: 900m
+            memory: 900Mi
           requests:
-            memory: 200Mi
-
-
+            cpu: 500m
+            memory: 500Mi
 ---
 apiVersion: v1
 kind: Service
 metadata:
-  name: discovery-service
+  name: gateway
   namespace: micro-services
 spec:
   type: ClusterIP
   selector:
-    app: discovery-service
+    app: gateway
   ports:
   - name: http
     protocol: TCP
-    port: 8082
+    port: 8084

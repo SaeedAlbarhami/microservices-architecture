@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import java.util.List;
 
 
-@FeignClient(value="CARSERVICE",fallback = CarServiceFallbakImpl.class)
+@FeignClient(value="CARSERVICE")
 public interface CarService {
 
     @RequestMapping(value="/cars", method= RequestMethod.GET)

@@ -1,0 +1,9 @@
+kind: Endpoints
+apiVersion: v1
+metadata:
+  name: unifiedpush
+subsets:
+  - addresses:
+      - ip: 10.100.10.101
+    ports:
+      - port: 3306

@@ -14,4 +14,4 @@ spring:
   profiles: production
   cloud:
     config:
-      uri: http://localhost:8081
+      uri: http://10.10.100.19:30001

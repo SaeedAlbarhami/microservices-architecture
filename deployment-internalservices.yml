@@ -1,0 +1,99 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: internal-services
+  namespace: micro-services
+spec:
+  selector:
+    matchLabels:
+      app: internal-services
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: internal-services
+    spec:
+      containers:
+      - name: booking-service
+        image: saeedalbarhami/booking-service
+        ports:
+        - containerPort: 8085
+        imagePullPolicy: Always
+        env:
+        - name: PORT
+          value: '8085'
+        resources:
+          limits:
+            memory: 500Mi
+          requests:
+            memory: 300Mi
+
+      - name: car-service
+        image: saeedalbarhami/car-service
+        ports:
+        - containerPort: 8087
+        imagePullPolicy: Always
+        env:
+        - name: PORT
+          value: '8087'
+        resources:
+          limits:
+            memory: 500Mi
+          requests:
+            memory: 300Mi
+
+      - name: customer-service
+        image: saeedalbarhami/customer-service
+        ports:
+        - containerPort: 8083
+        imagePullPolicy: Always
+        env:
+        - name: PORT
+          value: '8083'
+        resources:
+          limits:
+            memory: 500Mi
+          requests:
+            memory: 300Mi
+
+      - name: monitoring-service
+        image: saeedalbarhami/monitoring-service
+        ports:
+        - containerPort: 8090
+        imagePullPolicy: Always
+        env:
+        - name: PORT
+          value: '8090'
+        resources:
+          limits:
+            memory: 500Mi
+          requests:
+            memory: 300Mi
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: internal-services
+  namespace: micro-services
+spec:
+  type:
+  selector:
+    app: internal-services
+  ports:
+  - name: http-booking-service
+    protocol: TCP
+    port: 8085
+
+  - name: http-car-service
+    protocol: TCP
+    port: 8087
+
+  - name: http-customer-service
+    protocol: TCP
+    port: 8083
+
+  - name: http-monitoring-service
+    protocol: TCP
+    port: 8090

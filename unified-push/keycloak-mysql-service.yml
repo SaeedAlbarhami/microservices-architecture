@@ -1,0 +1,9 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: keycloak
+spec:
+  ports:
+    - protocol: TCP
+      port: 3306
+      targetPort: 3306

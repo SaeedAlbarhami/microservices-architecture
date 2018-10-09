@@ -1,0 +1,82 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  generation: 1
+  labels:
+    run: ups
+  name: ups
+  namespace: default
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      run: ups
+  strategy:
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 1
+    type: RollingUpdate
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        run: ups
+    spec:
+      containers:
+      - env:
+        - name: UNIFIEDPUSH_PORT_3306_TCP_ADDR
+          value: 10.100.10.101
+        - name: UNIFIEDPUSH_PORT_3306_TCP_PORT
+          value: "3306"
+        - name: UNIFIEDPUSH_ENV_MYSQL_DATABASE
+          value: keycloak-postgresql
+        - name: KEYCLOAK_PORT_3306_TCP_ADDR
+          value: keycloak-postgresql
+        - name: KEYCLOAK_PORT_3306_TCP_PORT
+          value: "80"
+        - name: KEYCLOAK_ENV_MYSQL_DATABASE
+          value: keycloak
+        - name: UNIFIEDPUSH_ENV_MYSQL_USER
+          value: unifiedpush
+        - name: UNIFIEDPUSH_ENV_MYSQL_PASSWORD
+          value: unifiedpush
+        - name: KEYCLOAK_ENV_MYSQL_USER
+          value: admin
+        - name: KEYCLOAK_ENV_MYSQL_PASSWORD
+          value: P@ssw0rd
+        image: aerogear/unifiedpush-wildfly
+        imagePullPolicy: Always
+        name: ups
+        ports:
+        - containerPort: 8443
+          protocol: TCP
+        - containerPort: 8080
+          protocol: TCP
+        readinessProbe: 
+          timeoutSeconds: 1
+          initialDelaySeconds: 90
+          exec: 
+            command: 
+              - /bin/sh
+              - -i
+              - -c
+              - wget http://localhost:8080/ag-push
+        terminationMessagePath: /dev/termination-log
+        terminationMessagePolicy: File
+      dnsPolicy: ClusterFirst
+      restartPolicy: Always
+      schedulerName: default-scheduler
+      terminationGracePeriodSeconds: 30
+status:
+  availableReplicas: 1
+  conditions:
+  - lastTransitionTime: 2017-07-03T23:28:10Z
+    lastUpdateTime: 2017-07-03T23:28:10Z
+    message: Deployment has minimum availability.
+    reason: MinimumReplicasAvailable
+    status: "True"
+    type: Available
+  observedGeneration: 1
+  readyReplicas: 1
+  replicas: 1
+  updatedReplicas: 1

@@ -1,7 +1,9 @@
+---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: config-app
+  namespace: micro-services
 spec:
   selector:
     matchLabels:
@@ -10,29 +12,37 @@ spec:
   template:
     metadata:
       labels:
-        app: discovery-config-app
+        app: config-app
     spec:
       containers:
       - name: configuration-service
         image: saeedalbarhami/configuration-service
         ports:
         - containerPort: 8081
+        imagePullPolicy: Always
         env:
         - name: PORT
           value: '8081'
+        resources:
+          limits:
+            memory: 900Mi
+          requests:
+            memory: 500Mi
 
 
 ---
 apiVersion: v1
 kind: Service
 metadata:
-  name: discovery-config-app
-  namespace: default
+  name: config-app
+  namespace: micro-services
 spec:
-  type: LoadBalancer
+  type: ClusterIP
   selector:
-    app: discovery-config-app
+    app: config-app
   ports:
-  - name: configuration-port
+  - name: http
     protocol: TCP
     port: 8081
+    targetPort: 8081
+
